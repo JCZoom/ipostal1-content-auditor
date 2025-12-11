@@ -33,7 +33,7 @@ A Streamlit-based content auditing application that validates content against SE
    - Copy `.streamlit/secrets.toml.example` to `.streamlit/secrets.toml`
    - Add your OpenAI API key and app password:
    ```toml
-   OPENAI_API_KEY = "sk-..."
+   OPENAI_API_KEY = "your-openai-api-key"
    APP_PASSWORD = "your-secure-password"
    ```
 

@@ -23,8 +23,8 @@ Visit: https://share.streamlit.io/
 Paste this in the Secrets section:
 
 ```toml
-OPENAI_API_KEY = "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"
-APP_PASSWORD = "iPostal2025"
+OPENAI_API_KEY = "your-openai-api-key-here"
+APP_PASSWORD = "your-secure-password-here"
 ```
 
 ### Step 5: Deploy

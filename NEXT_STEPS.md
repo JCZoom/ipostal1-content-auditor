@@ -52,8 +52,8 @@ git push -u origin main
 3. **New Project** → **Deploy from Bitbucket**
 4. Select `ipostal1-content-auditor` repository
 5. Add environment variables:
-   - `OPENAI_API_KEY` = `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`
-   - `APP_PASSWORD` = `iPostal2025`
+   - `OPENAI_API_KEY` = `your-openai-api-key`
+   - `APP_PASSWORD` = `your-secure-password`
 6. Deploy → Get public URL like `https://ipostal-auditor.up.railway.app`
 
 **Cost**: Free tier ($5 credit/month), then ~$10-15/month
@@ -74,7 +74,7 @@ gcloud run deploy ipostal-auditor \
   --platform managed \
   --region us-central1 \
   --allow-unauthenticated \
-  --set-env-vars OPENAI_API_KEY="sk-...",APP_PASSWORD="iPostal2025"
+  --set-env-vars OPENAI_API_KEY="your-key",APP_PASSWORD="your-password"
 ```
 
 **Cost**: Pay-per-use, typically $5-20/month for moderate traffic

@@ -26,13 +26,13 @@ After deployment starts:
    **Variable 1:**
    ```
    Name: OPENAI_API_KEY
-   Value: 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
+   Value: your-openai-api-key-here
    ```
 
    **Variable 2:**
    ```
    Name: APP_PASSWORD
-   Value: iPostal2025
+   Value: your-secure-password-here
    ```
 
 ### Step 5: Generate Public Domain

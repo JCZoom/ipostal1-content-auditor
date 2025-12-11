@@ -113,7 +113,7 @@ gcloud run deploy ipostal-auditor \
   --platform managed \
   --region us-central1 \
   --allow-unauthenticated \
-  --set-env-vars OPENAI_API_KEY="...",APP_PASSWORD="..."
+  --set-env-vars OPENAI_API_KEY="your-key",APP_PASSWORD="your-password"
 ```
 
 **Result:** Your own URL like `https://ipostal-auditor-xxx.run.app`
