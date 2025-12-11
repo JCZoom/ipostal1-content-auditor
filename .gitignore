@@ -26,6 +26,11 @@ wheels/
 # Streamlit
 .streamlit/secrets.toml
 
+# Environment files
+.env
+.env.local
+.env.*.local
+
 # IDE
 .vscode/
 .idea/
