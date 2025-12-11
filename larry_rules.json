@@ -1,0 +1,52 @@
+[
+  {
+    "triggers": ["tech company", "technology company"],
+    "message": "Brand Bible (Blue Light): Internal logic only. Do not lead with 'We are a tech company' in customer-facing copy. Focus on the service/app.",
+    "must_also_contain": []
+  },
+  {
+    "triggers": ["cheapest shipping", "best rates", "lowest rates"],
+    "message": "Brand Bible (Yellow Light): Do not promise 'cheapest' or 'best' rates. We offer transparency. Use 'Real-time quotes' or 'See exactly what you pay'.",
+    "must_also_contain": []
+  },
+  {
+    "triggers": ["guarantee", "guaranteed", "always accepted"],
+    "message": "Brand Bible (Yellow Light): Do not guarantee Business Banking acceptance. Policies vary. Use 'Many customers use us for...' instead.",
+    "must_also_contain": ["bank", "banking", "financial"]
+  },
+  {
+    "triggers": ["direct deposit"],
+    "message": "Brand Bible (Red Light): FALSE. We do not offer Direct Deposit. Use 'Check Forwarding' or 'Check Deposit'.",
+    "must_also_contain": []
+  },
+  {
+    "triggers": ["free scan", "free scanning"],
+    "message": "Brand Bible (Red Light): MISLEADING. Only the exterior photo is free. Content scanning is paid.",
+    "must_also_contain": []
+  },
+  {
+    "triggers": ["scan the outside", "scanning the outside", "scan the exterior"],
+    "message": "Brand Bible (Red Light): WRONG TERMINOLOGY. 'Scan' implies opening mail. Use 'Photograph', 'Image', or 'External Imaging'.",
+    "must_also_contain": []
+  },
+  {
+    "triggers": ["instant mail", "instant notification"],
+    "message": "Brand Bible (Red Light): IMPOSSIBLE. Do not imply zero processing time. Use 'View mail online the same day it arrives'.",
+    "must_also_contain": []
+  },
+  {
+    "triggers": ["game changer", "imagine", "in today's world"],
+    "message": "Brand Bible (Red Light): Fluff/Hype. Avoid generic intros. Write AS the brand, not ABOUT the brand.",
+    "must_also_contain": []
+  },
+  {
+    "triggers": ["online po box", "online p.o. box"],
+    "message": "Brand Bible (Yellow Light): Technically inaccurate. You must immediately correct this to 'Real Street Address' in the text.",
+    "must_also_contain": []
+  },
+  {
+    "triggers": ["driver's license", "drivers license", "personal id"],
+    "message": "Brand Bible (Risky): Use caution. We generally recommend for Business use. Do not promise acceptance for personal ID.",
+    "must_also_contain": []
+  }
+]

@@ -1,0 +1,10 @@
+[
+    "ACTIVATION: Activation occurs immediately upon payment and plan selection (allowing login), even if Form 1583 is not yet processed.",
+    "MAIL RECEIPT vs. ACCOUNT ACCESS: These are separate stages. PASS claims stating that Form 1583 is REQUIRED to receive physical mail (USPS regulation). PASS claims stating the Account/Dashboard is 'Active' immediately upon payment for administrative use. Do NOT flag Form 1583 requirements as contradicting 'Instant Activation'.",
+    "SCAN TERMINOLOGY: 'Scanning' refers to opening mail and scanning contents (Paid). 'Photographing', 'Photographs', and 'External Imaging' refer to the exterior image (Free). Do not conflate them.",
+    "DIRECT DEPOSIT: We do not offer Direct Deposit. We offer 'Check Forwarding' or 'Check Deposit' services.",
+    "PARTIAL USE: It is valid to use the address solely for marketing/listings without receiving physical mail.",
+    "BANKING & LICENSING: Distinguish between Business and Personal use. PASS claims stating the address works for BUSINESS banking, EINs, and corporate registration. FAIL claims stating it works for PERSONAL use, Driver's Licenses, Real ID, or personal banking requiring proof of residency.",
+    "DEFINITIONS - VIRTUAL ADDRESS vs. DIGITAL MAILBOX: A 'Virtual Address' is just a location. A 'Digital Mailbox' is the service that manages it. FAIL claims that imply ALL virtual addresses automatically come with digital mailboxes unless they specifically refer to iPostal1.",
+    "PROCESS - RECEIVING MAIL: It is FACTUALLY TRUE that all incoming mail is 'logged' and the exterior is 'photographed' (or imaged) upon arrival. PASS claims describing this intake process. Do not flag 'logging' or 'photographing' as unverified features."
+]

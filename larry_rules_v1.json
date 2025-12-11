@@ -1,0 +1,38 @@
+[
+    {
+        "id": "scan_terminology",
+        "triggers": ["scan the outside", "scanning the outside", "scans the outside", "scan of the outside", "scan the envelope"],
+        "must_also_contain": [],
+        "message": "⚠️ TERMINOLOGY ERROR: Do not use 'Scan' for the exterior of mail. Use 'Photograph' or 'Image'. 'Scan' implies opening the mail (a paid service)."
+    },
+    {
+        "id": "free_scan",
+        "triggers": ["free scan", "scan is free", "scans are free"],
+        "must_also_contain": [],
+        "message": "⚠️ ACCURACY WARNING: Scans (contents) are not free. Exterior photos are free. Ensure distinction is clear."
+    },
+    {
+        "id": "direct_deposit",
+        "triggers": ["direct deposit"],
+        "must_also_contain": [],
+        "message": "⚠️ ACCURACY WARNING: We generally offer Check Forwarding, not Direct Deposit. Verify this claim."
+    },
+    {
+        "id": "qualifiers",
+        "triggers": ["at ipostal1", "here at ipostal1"],
+        "must_also_contain": [],
+        "message": "⚠️ STYLE VIOLATION: Avoid qualifiers like 'At iPostal1...'. Write AS the brand, not ABOUT the brand."
+    },
+    {
+        "id": "rhetorical_openers",
+        "triggers": ["in today's world", "in the modern era", "nowadays", "it goes without saying"],
+        "must_also_contain": [],
+        "message": "⚠️ AEO VIOLATION: Avoid filler/rhetorical openers. Start immediately with the definition or value prop."
+    },
+    {
+        "id": "hype_language",
+        "triggers": ["you'll love", "imagine never", "game changer", "game-changer", "best of all", "imagine", "picture this", "guess what"],
+        "must_also_contain": [],
+        "message": "⚠️ TONE VIOLATION: Avoid hype. Stick to objective, authoritative benefits."
+    }
+]
